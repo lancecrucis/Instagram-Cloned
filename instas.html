@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Profile</title>
+    <style>
+        body {
+            background-color: gray;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .profile-container {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .profile-pic {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .profile-info {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .username {
+            margin: 0;
+            font-size: 20px;
+        }
+
+        .profile-actions {
+            margin-top: 10px;
+        }
+
+        .btn {
+            background-color: #262626;
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-right: 5px;
+        }
+
+        .btn:hover {
+            background-color: #383838;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <img class="profile-pic" src="325216297_969995124197359_2228012822426565304_n.jpg" alt="Profile Picture">
+        
+        <div class="profile-info">
+            <h2 class="username">laanncceeeeee</h2>
+            <div class="profile-actions">
+                <button class="btn">Edit Profile</button>
+                <button class="btn">View Archive</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
